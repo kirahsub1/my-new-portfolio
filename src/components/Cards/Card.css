@@ -1,12 +1,13 @@
 .project-card{
   max-width: 500px;
   min-height: 500px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 10px;
   margin: 10px;
+  transition: transform 0.3s ease;
 
  .card-img{
-    padding: 10px;
+    padding: 20px;
     
  }
     img{
@@ -17,4 +18,78 @@
         padding: 20px;
         border-radius: 10px;
     }
+    h2{
+        padding: 15px;
+        font-size: 40px;
+        line-height: 1.5;
+        font-weight: 700;
+    }
+
+    p{
+     padding: 15px;
+     font-size: 20px;
+    line-height: 1.2;
+    }
+    
 }
+.card-btn{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    
+    
+}
+ .card-btn1{
+        background-color:hotpink;
+        
+
+        a{
+       color:#fff;
+       text-decoration: none;
+       font-size: 14px;
+       font-weight: 400;
+       
+        }
+
+    }
+    .card-btn1:hover{
+        background-color: pink;
+        transition: background-color 0.3s ease;
+         
+        a{
+            color: #000;
+        }
+
+    }
+     .card-btn2{
+        background-color:rebeccapurple;
+
+        a{
+        color:#fff;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
+        }
+
+        
+    }
+    .card-btn2:hover{
+        background-color: purple;
+        transition: background-color 0.3s ease;
+        a{
+      color: antiquewhite;
+        }
+        
+    }
+    
+    .render-two{
+        background-color: rgb(80, 53, 67);
+    }

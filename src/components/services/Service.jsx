@@ -17,6 +17,7 @@ const service = () => {
            in JavaScript, HTML, and CSS, focusing on user-friendly and visually engaging design."
           link="https://coolors-project-ten.vercel.app/"
           source="https://github.com/kirahsub1/coolors-project"
+          color="render-one"
         />
         <Card
           image="https://res.cloudinary.com/dgcjq4kbf/image/upload/v1730796392/active-states_nyxrvt.jpg"
@@ -33,6 +34,7 @@ const service = () => {
                   a responsive design and efficient shopping workflow."
           link="https://sail-dessert-project.vercel.app/"
           source="https://github.com/kirahsub1/sail-dessert-project"
+          color="render-two"
         />
         <Card
           image="https://res.cloudinary.com/dgcjq4kbf/image/upload/v1730798029/furniro_vexde6.png"
@@ -51,7 +53,24 @@ const service = () => {
           link="https://furniro-sail-project.vercel.app/"
           source="https://github.com/kirahsub1/furniro-sail-project"
         />
-        <Card image="" title="" description="" link="" />
+        <Card
+          image="https://res.cloudinary.com/dgcjq4kbf/image/upload/v1730801899/kuda_cir21s.png"
+          title="Kuda Clone App"
+          description="The Kuda Clone App is a mobile banking
+           application designed to replicate the seamless and
+            user-friendly banking experience of Kuda Bank. This
+             app offers essential features such as opening a bank
+              account without paperwork, free transfers to other 
+              bank accounts, instant notifications for transactions,
+               and tools to track and manage spending. Users can also 
+               benefit from features like automated savings plans, the 
+               ability to create multiple savings goals, and in-app bill
+                payments. With a focus on security and convenience, the
+                 app uses advanced encryption methods and biometric login
+                  options to protect user information."
+          link="https://kuda-clone-app-phi.vercel.app/"
+          source="https://github.com/kirahsub1/kuda-clone-app"
+        />
       </div>
     </div>
   );
