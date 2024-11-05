@@ -35,3 +35,60 @@
         border-radius: 20px;
     }
 }
+.hero-btns{
+    display: flex;
+    gap: 20px;
+
+.hero-btn1{
+    background-color: hotpink;
+    width: 150px;
+    height:50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(77, 34, 55);
+}
+
+.hero-btn1:hover{
+    background-color: #ff0080;
+}
+.hero-btn2{
+    background-color: rebeccapurple;
+    width: 150px;
+    height:50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.hero-btn2:hover{
+    background-color: indigo;
+}
+
+.hero-btn3{
+    background-color: green;
+    width: 150px;
+    height:50px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.hero-btn3:hover{
+    background-color: darkgreen;
+}
+
+}

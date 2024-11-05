@@ -1,0 +1,32 @@
+.about-sec{
+    display: flex;
+    flex-direction: row;
+}
+.about-img{
+    margin-top: 50px;
+    padding-right: 10px;
+
+    img{
+        max-width: 650px;
+        max-height: 700px;
+        border-radius: 50%;
+    }
+
+}
+.about-content{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 30px;
+    }
+}

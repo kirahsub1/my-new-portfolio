@@ -7,21 +7,23 @@ const Hero = () => {
   return (
     <div className="hero-content">
       <div className="tagline">
+        <h2>Hello, I am Oyindamola Shakirah Erikitola </h2>
+        
         <h1>I am a Software Engineer</h1>
         <p>
           I am passionate about building impactful products and helping people
           achieve their goals.
         </p>
-        <div className="hero-btn">
+        <div className="hero-btns">
           <button className="hero-btn1">
             Resume <FaArrowRightFromBracket />
           </button>
-          
-          <button className="hero-btn1">
+
+          <button className="hero-btn2">
             Contact <MdPermContactCalendar />
           </button>
 
-          <button className="hero-btn1">
+          <button className="hero-btn3">
             Learn More <TbArrowRoundaboutRight />
           </button>
         </div>
