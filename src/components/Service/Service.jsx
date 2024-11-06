@@ -1,7 +1,7 @@
-import Card from "../../components/Cards/Card"
-import "./Service.css"
+import Card from "../Cards/Card";
+import "./Service.css";
 
-const service = () => {
+const Service = () => {
   return (
     <div className="service-container">
       <h1>Projects</h1>
@@ -74,6 +74,6 @@ const service = () => {
       </div>
     </div>
   );
-}
+};
 
-export default service
+export default Service;
