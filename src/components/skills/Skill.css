@@ -1,0 +1,23 @@
+.skill-sec{
+    min-height: 500px;
+    padding: 20px;
+    background-color: #000;
+    margin: 0px;
+
+
+
+    h1{
+        text-align: center;
+        font-size: 60px;
+        font-weight: 900;
+        color: aliceblue;
+    }
+}
+
+.Skills-btn-container{
+ display: flex;
+ flex-direction: row;
+ margin-top: 20px;
+ justify-content: space-around;
+ flex-wrap: wrap;
+}

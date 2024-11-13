@@ -1,14 +1,14 @@
 import About from "../../components/about/About";
 import Service from "../../components/Service/Service";
 import Hero from "../../components/hero/Hero";
-import Nav from "../../components/navbar/Nav";
+import Skills from "../../components/skills/Skill";
 
 const Home = () => {
   return (
     <div>
-      <Nav />
       <Hero />
       <About />
+      <Skills />
       <Service />
     </div>
   );

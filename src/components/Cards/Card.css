@@ -1,6 +1,6 @@
 .project-card{
-  max-width: 500px;
-  min-height: 500px;
+  width: 500px;
+  min-height: 300px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 10px;
   margin: 10px;
@@ -19,10 +19,11 @@
         border-radius: 10px;
     }
     h2{
-        padding: 15px;
-        font-size: 40px;
-        line-height: 1.5;
+        
+        font-size: 30px;
+        color: #571f1f;
         font-weight: 700;
+        text-align: center;
     }
 
     p{
@@ -92,4 +93,44 @@ button{
     
     .render-two{
         background-color: rgb(80, 53, 67);
+        color: azure;
+        
+
+        img{
+            height: 250px;
+        }
+        h2{
+            font-size: 30px;
+            color: #fff;
+            
+        }
     }
+    .render-three{
+        background-color: rgb(187, 66, 128);
+        color: azure;
+        
+
+        img{
+            height: 250px;
+        }
+        h2{
+            font-size: 30px;
+            color: #fff;
+            
+        }
+    }
+     .render-four{
+        background-color: rgb(20, 2, 12);
+        color: azure;
+        
+
+        img{
+            height: 250px;
+        }
+        h2{
+            font-size: 30px;
+            color: #fff;
+            
+        }
+    }
+    

@@ -5,7 +5,7 @@ const Service = () => {
   return (
     <div className="service-container">
       <h1>Projects</h1>
-      <p>Here are some of my projects:</p>
+      <p className="text">Here are some of my projects:</p>
       <div className="Cards-container">
         <Card
           image="https://res.cloudinary.com/dgcjq4kbf/image/upload/v1730582940/cool_i1cewm.png"
@@ -52,6 +52,7 @@ const Service = () => {
                   how furniture pieces will look in their space before buying."
           link="https://furniro-sail-project.vercel.app/"
           source="https://github.com/kirahsub1/furniro-sail-project"
+          color="render-three"
         />
         <Card
           image="https://res.cloudinary.com/dgcjq4kbf/image/upload/v1730801899/kuda_cir21s.png"
@@ -70,6 +71,7 @@ const Service = () => {
                   options to protect user information."
           link="https://kuda-clone-app-phi.vercel.app/"
           source="https://github.com/kirahsub1/kuda-clone-app"
+          color="render-four"
         />
       </div>
     </div>

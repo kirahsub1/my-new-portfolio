@@ -4,6 +4,44 @@
     justify-content: space-between;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+@media(max-width:610px){
+    .nav-content{
+        background-color: #da0808;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .logo-link{
+    text-decoration: none;
+    cursor: pointer;
+    h1{
+        text-align: center;
+        color: #fff;
+        margin-left: 5px;
+    }
+}
+   .nav-links a{
+        margin-top: 10px;
+        display: none;
+
+    }
+}
+.logo-link{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.logo-link:hover{
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.nav-logo{
+    text-decoration: none;
+    color: #000;
+}
 .nav-logo{
     display: flex;
     align-items: center;
