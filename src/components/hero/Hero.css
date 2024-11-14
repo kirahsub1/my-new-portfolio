@@ -84,11 +84,91 @@
 .hero-btn3:hover {
     background-color: darkgreen;
 }
+/* Desktop Screen (up to 1024px ) */
+@media (min-width: 1024px) {
+ .hero-content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding: 100px 0;
+ }
+ .tagline {
+    margin-left: 0;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .hero-img {
+    padding-top: 0;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+ .hero-img img {
+    width: 100%;
+    max-width: 600px;
+  }
+  .hero-btns {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+  }
+  .hero-btn1, .hero-btn2, .hero-btn3 {
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+  }
+
+
+}
+/* Tablet Layout */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .hero-content {
+        background-color: #241f21;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+    .tagline {
+        margin-left: 0;
+        max-width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-img {
+        padding-top: 0;
+        min-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .hero-img img {
+        width: 100%;
+        max-width: 500px;
+    }
+    .hero-btns {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    .hero-btn1, .hero-btn2, .hero-btn3 {
+        width: 100%;
+        height: 40px;
+        font-size: 12px;
+    }
+
+}
+
 
 /* Tablet Screens (up to 768px) */
 @media (max-width: 768px) {
     .hero-content {
-        background-color: #ff0080;
+        background-color: #241f21;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -115,6 +195,16 @@
         width: 100%;
         max-width: 500px;
     }
+    .hero-btns {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    .hero-btn1, .hero-btn2, .hero-btn3 {
+        width: 100%;
+        height: 30px;
+        font-size: 10px;
+    }
 }
 
 /* Small Tablet and Mobile Screens (up to 600px) */
@@ -139,7 +229,7 @@
 /* Small Mobile Screens (up to 430px) */
 @media (max-width: 430px) {
     .hero-content {
-        background-color: aqua;
+        background-color: rgb(56, 65, 65);
         flex-direction: column;
         justify-content: center;
         align-items: center;
